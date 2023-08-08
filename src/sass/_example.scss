@@ -26,3 +26,11 @@
   background-size: cover;
   background-position: center;
 }
+.hidden{
+  opacity: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
