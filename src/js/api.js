@@ -12,7 +12,4 @@ export const getPhoto = async (query, page) => {
   } catch (error) {
     console.log(error.message);
   }
-  // return fetch(
-  //   `${BASE_URL}?key=${API_KEY}&q=${query}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=40`
-  // ).then(data => console.log(data));
 };
